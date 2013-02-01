@@ -163,7 +163,6 @@
                 "Symfony\\Component\\Yaml": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -206,7 +205,6 @@
                 "Text/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -256,7 +254,6 @@
                 "PHPUnit/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -310,7 +307,6 @@
                 "PHP/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -382,7 +378,6 @@
                 "PHPUnit/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
         "include-path": [
             "",
             "../../symfony/yaml/"
@@ -432,7 +427,6 @@
                 "provider/provider.php"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
         "authors": [
             {
                 "name": "Mewp",
@@ -480,7 +474,6 @@
                 "Composer\\Installers\\": "src/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -519,31 +512,36 @@
     },
     {
         "name": "anroots/notify",
-        "version": "dev-3.3/develop",
-        "version_normalized": "dev-3.3/develop",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/anroots/Notify",
-            "reference": "bf0f3b6341ac3f46605545e2618040cf1d5de346"
+            "reference": "2.0.1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/anroots/Notify/archive/bf0f3b6341ac3f46605545e2618040cf1d5de346.zip",
-            "reference": "bf0f3b6341ac3f46605545e2618040cf1d5de346",
+            "url": "https://github.com/anroots/Notify/archive/2.0.1.zip",
+            "reference": "2.0.1",
             "shasum": ""
         },
         "require": {
             "php": ">=5.4.0",
             "composer/installers": "*"
         },
-        "time": "2013-01-22 06:22:58",
+        "time": "2012-11-09 11:19:46",
         "type": "kohana-module",
-        "installation-source": "source",
-        "notification-url": "https://packagist.org/downloads/",
+        "installation-source": "dist",
         "license": [
             "MIT"
         ],
         "authors": [
+            {
+                "name": "Ricardo de Luna",
+                "email": "kaltar@kaltar.org",
+                "homepage": "http://kaltar.org",
+                "role": "Developer"
+            },
             {
                 "name": "Ando Roots",
                 "email": "ando@sqroot.eu",
